@@ -2,7 +2,7 @@
 	"name": "latexrigana",
 	"displayName": "latexrigana",
 	"description": "LaTeXで漢字に振り仮名を振るためのショートカット。\n \\usepackage{pxrubrica}が必要となります。",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "monndenntomoki",
 	"engines": {
 		"vscode": "^1.44.0"
@@ -22,11 +22,11 @@
 			}
 		],
 		"keybindings": [
-            {
-                "command": "extension.latexrigana",
-                "key": "ctrl+shift+l"
-            }
-        ]
+			{
+				"command": "extension.latexrigana",
+				"key": "ctrl+shift+l"
+			}
+		]
 	},
 	"scripts": {
 		"lint": "eslint .",

@@ -11,19 +11,19 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:latexrigana.LaTeXrigana"
+		"onCommand:extension.latexrigana"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "latexrigana.LaTeXrigana",
+				"command": "extension.latexrigana",
 				"title": "LaTeXrigana"
 			}
 		],
 		"keybindings": [
             {
-                "command": "extension.latexrigana.ruby",
+                "command": "extension.latexrigana",
                 "key": "ctrl+shift+l"
             }
         ]

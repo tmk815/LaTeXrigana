@@ -24,8 +24,10 @@ function activate(context) {
 
 		const ref = activeEditor.selection;
 		const text = doc.getText(ref);
+		const texts = text.split("")
+		var replace_text = ""
 
-		let replace_text = "\\ruby{" + text + "}{}"
+		texts.forEach(element => replace_text += "\\ruby{" + element + "}{}");
 
 		activeEditor.edit(edit => {
 			edit.replace(ref, replace_text);
